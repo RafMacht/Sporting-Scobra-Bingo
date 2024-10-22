@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#bingokaart {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.bingovakje {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+}
+
+.bingovakje.gehaald {
+    background-color: lightgreen;
+    color: white;
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
